@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecera{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    background-color: white;
+}
+
+.cabecera section{
+    
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: cadetblue;
+    
+}
+
+.cabecera section h1{
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+
+.cabecera section h2{
+    display: flex;
+    font-size: 20px;
+    display: inline-block;
+    align-self: center;
+}
+
+.cabecera p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+
+}
+
+.fondo{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.fondo video{
+    position: relative;
+    width: 100vw;
+}
+.fondo{
+    display: flex;
+    justify-content: center;
+}
